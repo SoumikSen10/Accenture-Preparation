@@ -1,0 +1,171 @@
+1) Starting with Microsoft Office 2003, Photo Editor was renamed to :
+
+Ans: Picture Manager
+
+2) Which of the following functions will help to find the number of working days between two calendar dates ?
+
+Ans: Business days
+
+3) Which of the following groups is not preset under the insert tab in MS-Excel?
+
+Ans: Sort & Filter
+
+4) Using which of the following sites, users can interact with each other through messages?
+
+Ans: Snap Chat, Gmail, Facebook
+
+5) A compiler means
+
+Ans: A program which translates source program into object program
+
+6) Which of the following commands will take you two steps backward from any particular directory?
+
+Ans: cd ../..
+
+7) Which key is to be held down to select the word or phase to be selected in MS Word?
+
+Ans: Shift
+
+8) If by an accident a mail is deleted, then which of the folders will save the mail.
+
+Ans: Trash
+
+9) What is the difference between a Trojan and a Virus?
+
+Ans: A Virus replicated itself while a Trojan doesnot
+
+10) While using formulas in Excel, the notation "B8:B10" indicates:
+
+Ans: All cells from B8 to B10
+
+**11) In currently open PowerPoint presentation, a new slide is inserted using shortcut key
+
+Ans: Ctrl + M
+
+**12) In order to increase the font size one value, they key we use is
+
+Ans: Ctrl + Shift + >
+
+13) Which of the following software applications allows an user to view a webpage?
+
+Ans: Internet Explorer
+
+**14) Which of the following functions is used to create a drop-down box in selected cells?
+
+Ans: Data > Data Validation
+
+15) In Microsoft Excel, what function would you use to find the average of a range of cells?
+
+Ans: AVERAGE
+
+16) What is the extension of a PowerPoint file saved in Microsoft Office 2016?
+
+Ans: .pptx
+
+17) Which shortcut key is used to create a new workbook in Microsoft Excel?
+
+Ans: Ctrl + N
+
+18) Which key combination is used to open the 'Find and Replace' dialog box in Microsoft Word?
+
+Ans: Ctrl + H
+
+19) Switching to the previous window from current window can be done by shortcut keys which are
+
+Ans: Alt + Shift + Tab
+
+**20) In PowerPoint, which view is used to show just the text content of the slides?
+
+Ans: Outline View
+
+**21) What is the default file extension for a Microsoft Word document?
+
+Ans: .docx
+
+**22) Which feature in Microsoft Excel allows you to visually represent data in a graphical format?
+
+Ans: Charts
+
+**23) Which of the following file format is not a video file format?
+
+Ans: jpeg
+
+24) Which one is not an Image file?
+
+Ans: .wmv(it is a video file format) , .bmp(is an image file format-->bitmap image file)
+
+***25) Which of the following commands is given to reboot the computer?
+
+Ans: Ctrl + Alt + Del
+
+26) The shortcut key to display Windows help is
+
+Ans: Windows Logo + F1
+
+27) The numeric data entered in the worksheet (MS Excel) is ______ aligned by default.
+
+Ans: Right
+
+28) What does the URL http://www.uni.edu tell you about the source?
+
+Ans: It is associated with an educational institution.
+
+29) Add, Subtract multiply and logic operations are performed by
+
+Ans: ALU
+
+**30) Which of the following can be used to navigate from one slide to another in the same presentation or to a slide in another presentation in PowerPoint?
+
+Ans: Hyperlink
+
+31) A feature of MS Office that saves the document automatically after a certain interval is called:
+
+Ans: Auto Save
+
+32) What was the HTML editor that was part of Microsoft Office until 2003?
+
+Ans: FrontPage
+
+33) Which key combination is used to close a tab on a browser?
+
+Ans: Ctrl + W
+
+34) Which feature is used to make a selected sentence all capital letters or all small letters in MS Word?
+
+Ans: Change Case
+
+35) What is the extension of MS Outlook mail file?
+
+Ans: .pst
+
+36) How can you tell the email that you have read from the email that you have not read?
+
+Ans: The unread mail will be bold
+
+**37) How do you request a receipt to show an email has been read?
+
+Ans: Click the options tab from the message window and choose request receipt
+
+38) What is MS Word used for ?
+
+Ans: Design Texts
+
+39) Documents can be ____ with MS Word.
+
+Ans: Created, Edited and Saved
+
+**40) Microsoft Word was released in which year?
+
+Ans: 1983
+
+**41) Microsoft Excel was released in which year?
+
+Ans: 1985
+
+**42) Microsoft PowerPoint was released in which year?
+
+Ans: 1987
+
+**43) Microsoft Outlook was released in which year?
+
+Ans: 1997

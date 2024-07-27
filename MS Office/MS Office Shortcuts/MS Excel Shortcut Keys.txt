@@ -1,0 +1,10 @@
+1) New document : Ctrl + N
+2) Open document : Ctrl + O
+3) Save document : Ctrl + S
+4) Save As : F12
+5) Print document : Ctrl + P
+6) Close document : Ctrl + W
+7) Undo : Ctrl + Z
+8) Redo : Ctrl + Y
+9) Subscript : Ctrl + =
+10) Superscript : Ctrl + Shift + =

@@ -1,0 +1,10 @@
+1) New presentation : Ctrl + N
+2) Open presentation : Ctrl + O
+3) Save presentation : Ctrl + S
+4) Save As : F12
+5) Print presentation : Ctrl + P
+6) Close presentation : Ctrl + W
+7) Undo : Ctrl + Z
+8) Redo : Ctrl + Y
+9) Start slide show from beginning : F5
+10) End slide show : Esc

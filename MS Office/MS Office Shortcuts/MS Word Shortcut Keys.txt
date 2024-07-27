@@ -1,0 +1,12 @@
+1) New document : 
+2) Open document :
+3) Save document :
+4) Save As : 
+5) Print document : 
+6) Close document :
+7) Undo :
+8) Redo :
+9) Move one word to right :
+10) Move one word to left :
+11) Single-line spacing : 
+12) Double-line spacing :

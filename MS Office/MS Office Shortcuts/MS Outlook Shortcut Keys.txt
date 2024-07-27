@@ -1,0 +1,6 @@
+1) New email, appointment, contact, or task : Ctrl + N
+2) Open selected item : Ctrl + O
+3) Save : Ctrl + S
+4) Print : Ctrl + P
+5) Undo : Ctrl + Z
+6) Redo : Ctrl + Y
