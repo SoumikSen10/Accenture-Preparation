@@ -1,0 +1,119 @@
+1) What is Cloud Computing?
+
+Ans : Cloud computing means providing services like storage, servers, database, networking, etc.
+
+2) Which of the following is not a type of cloud server?
+
+Ans : Merged Cloud Servers
+
+3) Which of the following are the features of cloud computing?
+
+Ans : Security, Availability, Large Network Access
+
+4) Which of the following is a type of cloud computing service?
+
+Ans : Software-as-a-Service(SaaS)
+
+5) Which of the following is the Cloud Platform provided by Amazon?
+
+Ans : AWS
+
+6) Which architectural layer is used as a backend in cloud computing?
+
+Ans : Cloud
+
+7) Which of the following is the most refined and restrictive cloud service model?
+
+Ans : PaaS(Product-as-a-Service)
+
+8) Which of the following is not a property of cloud computing?
+
+Ans : composability
+
+9) Who is the father of cloud computing?
+
+Ans : J.C.R. Licklider
+
+10) Which of the following is NOT a type of cloud computing service?
+
+Ans : Desktop as a Service (DaaS)
+
+11) What is a common use case for IaaS(Infrastructure as a Service)?
+
+Ans :  Virtual machines
+
+12) Which of the following best describes a "hybrid cloud"?
+
+Ans : A combination of private and public clouds.
+
+13) Which cloud computing model is most suitable for developers to build, test, and deploy applications?
+
+Ans : PaaS
+
+14) Which of the following is an example of a public cloud provider?
+
+Ans : Amazon Web Services (AWS)
+
+15) Which of the following is a key concern for organizations when adopting cloud computing?
+
+Ans : Security and privacy
+
+16) Which term refers to moving an organization's entire infrastructure to the cloud?
+
+Ans : Cloud migration
+
+17) Which one of the following is cloud service model?
+
+Ans : IaaS, PaaS, SaaS
+
+18) Which cloud service model provides the highest level of control to the end user?
+
+Ans : IaaS
+
+19) What does "pay-as-you-go" pricing mean in cloud computing?
+
+Ans : Paying based on actual usuage of cloud resources
+
+20)  Which of the following terms describes a system that automatically increases or decreases its resources based on demand?
+
+Ans: Elastic computing
+
+21) Which of the following is a benefit of using IaaS?
+
+Ans : Reduced need for in-house hardware, full control over the infrastructure, easy scalability
+
+22) Which term refers to a service model where software is delivered over the internet on a subscription basis?
+
+Ans : SaaS
+
+23) What is the primary advantage of using a hybrid cloud model?
+
+Ans : Flexibility to use both public and private resources
+
+24) Which cloud deployment model offers dedicated resources to a single organization?
+
+Ans : Private Cloud
+
+25) Which architectural layer is used as a backend in cloud computing?
+
+Ans : cloud
+
+26) Which one of the following options can be considered as the Cloud?
+
+Ans : Hadoop
+
+27) Which term describes the process of distributing data across multiple data centers?
+
+Ans : Data replication
+
+28)  Which of the following is a primary advantage of using cloud storage?
+
+Ans : Scalability and flexibility
+
+29) Which cloud computing concept involves storing data in different geographic locations?
+
+Ans : Data geo-distribution
+
+30) Which of the following is a characteristic of public cloud?
+
+Ans : Shared resources among multiple organizations
