@@ -1,0 +1,139 @@
+1) Which protocol is used to send emails?
+
+Ans : SMTP
+
+2) What does DNS stand for?
+
+Ans : Domain Name System
+
+3) Which device is used to connect two different networks?
+
+Ans : Router
+
+4) What is the purpose of DHCP?
+
+Ans : To assign IP addresses
+
+5) Which layer of the OSI model does the IP protocol operate at?
+
+Ans : Network Layer
+
+6) Which of the following is a connection-oriented protocol?
+
+Ans : TCP
+
+7) What is the primary function of ARP?
+
+Ans : Resolve IP addresses to MAC addresses
+
+8) What is a network?
+
+Ans : A group of interconnected computers
+
+9) What is the main purpose of a router?
+
+Ans : To connect multiple networks and route packets
+
+10) Which layer of the OSI model is responsible for error detection and correction?
+
+Ans : Data Link Layer
+
+11) What protocol does HTTP use to ensure reliable communication?
+
+Ans : TCP
+
+12) What is the primary function of DNS?
+
+Ans : To resolve domain names to IP addresses
+
+13) What is the default subnet mask for a Class C network?
+
+Ans : 255.255.255.0
+
+14) Which protocol is used to send email messages from a client to a server?
+
+Ans : SMTP
+
+15) What does LAN stand for?
+
+Ans : Local Area Network
+
+16) What protocol is used for secure transactions on the internet?
+
+Ans : HTTPS
+
+17) What does TCP/IP stand for?
+
+Ans : Transmission Control Protocol/Internet Protocol
+
+18) Which layer of the OSI model is responsible for data encryption?
+
+Ans : Presentation Layer
+
+19) What is the size of an IPV4 address?
+
+Ans : 32 bits
+
+**20) What type of protocol is ICMP?
+
+Ans : Connectionless
+
+21) What is the main advantage of a VPN?
+
+Ans : Enhanced security and privacy
+
+22) What is the primary purpose of a firewall?
+
+Ans : To block unauthorized access
+
+23) Which protocol is used for receiving emails from a server?
+
+Ans : POP3
+
+24) What is the primary difference between IPv4 and IPv6?
+
+Ans : IPv6 has a larger address space
+
+25) What is the purpose of the VLAN?
+
+Ans : To create virtual networks within a physical network
+
+26) What topology is characterized by a central hub?
+
+Ans : Star
+
+27) What is the primary function of a modem?
+
+Ans : To connect a network to the internet
+
+28) An attack in which the user receives an unwanted amount of emails is ___.
+
+Ans : E-mail bombing
+
+29) Which of the following cloud service providers does not provide Hybrid Storage?
+
+Ans : Google Cloud
+
+30) Which of the following cloud service providers is of Binary large objects type?
+
+Ans : Azure
+
+**31) Which of the following is a private IP address?
+
+Ans : 192.168.0.1
+
+32) What is the full form of OSI?
+
+Ans : Open System interconnection
+
+33) How many layers are there in the ISO OSI reference model?
+
+Ans : 7
+
+34) Which type of network shares the communication channel amongst all the machines?
+
+Ans : Broadcast network
+
+35) Which layer provides the services to user?
+
+Ans : Application Layer
