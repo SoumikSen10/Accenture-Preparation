@@ -117,3 +117,152 @@ Ans : Data geo-distribution
 30) Which of the following is a characteristic of public cloud?
 
 Ans : Shared resources among multiple organizations
+
+31) Which of the following is a benefit of using cloud computing?
+
+Ans: Reduced need for physical storage
+
+32) What does "SaaS" stand for in cloud computing?
+
+Ans: Software as a Service
+
+33) Which cloud service model provides virtualized computing resources over the internet?
+
+Ans: IaaS
+
+34) Which of the following is NOT a characteristic of cloud computing?
+
+Ans: Fixed pricing
+
+35) What is the purpose of a Virtual Private Cloud(VPC)?
+
+Ans: To create an isolated section of the cloud for security.
+
+36) Which cloud deployment model is used by a single organization?
+
+Ans: Private Cloud
+
+***37) Which of the following is a key benefit of serverless computing?
+
+Ans: Automatic scaling
+
+38) In cloud computing, what is "auto-scaling"?
+
+Ans: The automatic adjustment of computing resources based on demand
+
+39) Which of the following is a characteristic of Platform as a service (PaaS)?
+
+Ans:  Provides a platform to develop, run and manage applications
+
+***40) Which cloud deployment model is most suitable for companies that require dedicated infrastructure with enhanced security?
+
+Ans: Private Cloud
+
+41) Which of the following cloud service models allows users to develop, run and manage applications without the complexity of building and maintaining the infrastructure?
+
+Ans: PaaS
+
+42) Which of the following cloud services is most commonly used for scalable storage?
+
+Ans: Amazon S3
+
+***43)  What is cloud computing?
+
+Ans: The delivery of computing services over the Internet
+
+44) What does IaaS stand for?
+
+Ans: Infrastructure as a Service
+
+45) What is the primary role of a client in a client-server architecture?
+
+Ans: To request services from a server
+
+46) What is a server?
+
+Ans: A computer or system that provides resources, data, services or programs to other computers, known as clients, over a network 
+
+47) What is a cloud data center?
+
+Ans: A facility used to house computer systems and associated components for cloud computing
+
+48) What is a key advantage of using cloud data centers?
+
+Ans: Scalability and flexibility in resource management
+
+49) Name a popular cloud service provider.
+
+Ans: AWS (Amazon Web Services)
+
+50) What is the primary service offered by Google Cloud?
+
+Ans: Cloud computing services
+
+51) What is Microsoft Azure primarily known for?
+
+Ans: Providing a range of cloud services including analytics, storage and networking
+
+52) Which cloud platform is known for it's extensive machine learning services?
+
+Ans: Google Cloud Platform
+
+53) What does PaaS stand for?
+
+Ans: Platform as a Service
+
+54) Which cloud service model provides on-demand software applications?
+
+Ans: SaaS (Software as a Service)
+
+55) What is the function of a VPN?
+
+Ans: To create a secure connection over a less secure network
+
+56) Which protocol is used to ensure secure remote login?
+
+Ans: SSH(Secure Shell)
+
+57) What does IDS stand for in network security?
+
+Ans: Intrusion Detection System
+
+58) What is the main benefit of cloud elasticity?
+
+Ans: The ability to scale computing resources up or down as needed
+
+59) What does hybrid cloud refer to?
+
+Ans: A combination of private and public cloud environments
+
+60) What is cloud migration?
+
+Ans: The process of moving data, applications, or other business elements to a cloud computing environment
+
+61) Which cloud service provider is known for its simple storage service (S3)?
+
+Ans: AWS(Amazon Web Services)
+
+***62) What command allows you to determine whether an IP access list is enabled on a particular interface?
+
+Ans: show ip interface
+
+***63) What router command will permit SMTP mail to only host 1.1.1.1?
+
+Ans: access-list 110 permit tcp any host 1.1.1.1 eq smtp
+
+***64) What type of network security device scans for viruses and malware?
+
+Ans: Antivirus scanning devices
+
+***65) Which cloud service provider should be chosen for extensive support of Linux, Windows Server, and SQL Server?
+
+Ans: Azure
+
+*** 66) Which of the following cloud service provider does not provide application lifecycle management?
+
+Ans : Azure ,GCP and AWS -> none of them provides application lifecycle management
+
+67) Which of the following terms describes a system that automatically increases or decreases its resources based on demand?
+
+Ans : Elastic computing
+

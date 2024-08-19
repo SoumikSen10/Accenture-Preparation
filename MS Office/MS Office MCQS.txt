@@ -169,3 +169,316 @@ Ans: 1987
 **43) Microsoft Outlook was released in which year?
 
 Ans: 1997
+
+44) Is Microsoft works part of the Microsoft office suite?
+
+Ans: No
+
+45) A feature of MS Office that saves the document automatically after a certain interval is called :
+
+Ans: FrontPage
+
+46) Which feature is used to make the selected sentence in all capital letters or all small letters?
+
+Ans: Change Case
+
+47) Which of these software applications was not part of the first version of Microsoft Office?
+
+Ans: Outlook
+
+48) How would you insert the international character shown in the image given below ?
+(image is of an inverted question mark)
+
+Ans: Ctrl + shift + Alt + ?
+
+49) When you activate the mini translator in MS Word, it will stay active until you deactivate it within the translation menu. Also, when the mini translator is activated, the document will be sent to Microsoft translator as you type. Are both statements correct?
+
+Ans: Both the statements are correct
+
+50) What can be done to stop word's numbering command from supplying automatic numbers to sequential paragraphs?
+
+Ans: Both I and II
+
+51) Which key is to be held down to select a word or phase in MS Word?
+
+Ans: Shift
+
+52) Which tab in MS Word contains the option to add a table?
+
+Ans: Insert
+
+53) In Excel, what function is used to calculate the average of a range of cells?
+
+Ans: Average
+
+54) How can you quickly copy formatting from one cell to another in excel?
+
+Ans: Format Painter
+
+55) Which feature in PowerPoint allows you to add movement to text and objects?
+
+Ans: Animations
+
+56) In outlook, which feature allows you to set an automatic reply when you are out of the office?
+
+Ans: Out of office assistant
+
+57) In Excel, what function is used to sum a range of cells?
+
+Ans: SUM
+
+58) What is the feature in MS Word that corrects common typing errors as you type?
+
+Ans: Autocorrect
+
+59) Which tab in PowerPoint contains the option to insert a new slide?
+
+Ans: Home
+
+60) In Excel, what is the function of the file handle?
+
+Ans: To copy data or formulas to adjacent cells
+
+61) In outlook, which folder contains emails that have been marked as junk mail?
+
+Ans: Spam
+
+62) In MS Word, what feature allows you to track changes made to a document?
+
+Ans: Track changes
+
+63) Which feature in Excel allows you to create a graphical representation of data?
+
+Ans: Charts
+
+64) In PowerPoint, what feature allows you to add sound effects to your presentation?
+
+Ans: Audio
+
+65) Which tab in excel contains the option to insert a chart?
+
+Ans: Insert
+
+***66) In outlook, what is the feature that helps manage emails by filtering and sorting them?
+
+Ans: Rules
+
+***67) In excel, what feature allows you to quickly apply a set of formatting choices?
+
+Ans: Cell Styles
+
+----------------------------------
+
+***68) Which feature in MS Word allows you to create a set of documents that have the same layout but different content?
+
+Ans: Mail Merge
+
+69) In Excel, what does the function = VLOOKUP(A2,B2:C10,2,FALSE) do?
+
+Ans: Looks up a value in the first column and returns a value in the same row from another column.
+
+70) Which key combination is used to insert a new slide in a PowerPoint presentation?
+
+Ans: Ctrl + M
+
+71) In MS Outlook, what does the "Out of Office" feature do?
+
+Ans: Sends an automated reply to incoming emails.
+
+72) What is the default file extension for an Excel 2016 workbook?
+
+Ans: .xlsx
+
+73) Which MS Word feature automatically corrects common typing errors as you type?
+
+Ans: AutoCorrect
+
+74) Which Excel function would you use to count the number of cells in a range that meet a single condition?
+
+Ans: COUNTIF
+
+***75) In Word, what happens when you press 'Ctrl + Shift + F' while text is selected?
+
+Ans: Opens the Font dialog box
+
+***76) Which feature in PowerPoint allows you to create a transition effect between slides that matches the previous slide?
+
+Ans: Morph
+
+***77) Which Outlook feature allows you to schedule emails to be sent at a later time?
+
+Ans: Delay Delivery
+
+***78) What is the default paper size in MS Word?
+
+Ans: A4
+
+***79) Which of the following Excel functions can be used to combine the text from multiple cells into one cell?
+
+Ans: CONCATENATE
+
+***80) How can you stop automatic numbering in MS Word?
+
+Ans: Press the Enter key twice or click the Numbering button again
+
+***81) Which key combination is used to select a word or phrase in MS Word?
+
+Ans: Shift
+
+***82) What is the shortcut key to open the Find dialog box in MS Word?
+
+Ans: Ctrl + F
+
+***83) In Excel, what function finds the highest value in a range of cells?
+
+Ans: MAX
+
+***84) What does a green underline in MS Word signify?
+
+Ans: Contextual error
+
+***85) Which Excel feature quickly applies a set of formatting choices to a range of cells?
+
+Ans: Cell Styles
+
+***86) Ctrl + Enter : Insert a page break (in MS Word)
+
+***87) Ctrl + Shift + L : Apply bullet points to selected text (in MS Word)
+
+***88) F12 : Save As dialog box (in MS Word)
+
+***89) Styles Pane (in MS Word) : Apply consistent formatting to text using predefined styles
+
+***90) Track Changes (in MS Word) : Review and Edit Documents by tracking all modifications.
+
+***91) Table of Contents (in MS Word) : Automatically generate table of contents based on your document headings.
+
+***92) MAIL MERGE (in MS Word) : Create personalized letters, labels, and emails.
+       Combine a template with a data source to produce personalized documents.
+
+93) SmartArt : Insert visual elements to represent information
+
+94) References Tab : Insert citations, footnotes, endnotes and manage your bibliography
+
+95) Review Pane :  Access spelling and grammar check, thesaurus and word count.
+
+96) Styles and Formatting : Use styles to ensure consistent formatting across your document.
+
+97) Margins : Layout > Margins to set the margin sizes.
+
+98) Orientation : Layout > Orientation to switch between Portrait and Landscape.
+
+99) Columns : Layout > Columns to split the text into multiple columns.
+
+100) Ctrl + H (in MS Excel) : Replace text or numbers in the worksheet
+
+101) Ctrl + Arrow Keys (in MS Excel) : Move to the edge of the data region
+
+102) Shift + Space (in MS Excel) : Select an entire row
+
+103) Ctrl + Space (in MS Excel) : Select an entire column
+
+104) Alt + Enter (in MS Excel) : Start a new line within a cell
+
+105) Ctrl + ; (in MS Excel) : Insert the current date
+
+106) Ctrl + shift + $ (in MS Excel) : Apply currency format
+
+107) F2 (in MS Excel) : Edit the active cell
+
+108) AUTOSUM (in MS Excel) : Quickly sum a range of cells
+     = SUM(A1:A5)
+
+109) VLOOKUP/HLOOKUP (in MS Excel) : Look up values in a table and return corresponding data.
+     = VLOOKUP(A2,B2:E10,4,FALSE)
+
+Explanation : VLOOKUP(value, table, col_index, [range_lookup])
+range_lookup --> It is optional. It specifies whether you want an exact match (FALSE) or an approximate match (TRUE).
+
+110) Pivot Tables (in MS Excel) : Summarize, analyse and explore large datasets
+
+111) Conditional Formatting (in MS Excel) : Highlight cells that meet certain criteria
+
+112) Data Validation (in MS Excel) : Restrict the type of data entered into a cell
+
+113) Charts (in MS Excel) : Visualize data using various chart types.
+
+114) Sort & Filter (in MS Excel) : Organize and extract databases on specific criteria
+
+115) Ctrl + D (in MS PowerPoint) : Duplicate the selected slide
+
+116)  Ctrl + M (in MS PowerPoint) : Insert a new slide
+
+117) Ctrl + Y : Redo the last undone action
+
+118) Ctrl + Shift + > : Increase font size
+
+119) Ctrl + Shift + < : Decrease font size
+
+120) Shift + F5 : Start the slideshow from the current slide
+
+121) Ctrl + K : Insert a hyperlink
+
+122) Ctrl + G : Group selected objects
+
+123) Slide Master : Customize the layout and design of slides throughout your presentation
+
+124) Transitions : Add visual effects when moving from one slide to another
+
+125) Animations : Animate text and objects on a slide
+
+126) Speaker Notes : Add notes for reference during a presentation
+
+127) Rehearse timings : Practice the timing of your presentation
+
+128) Design Ideas : Get layout suggestions based on your slide content
+
+129) SmartArt : Insert organizational charts, process diagrams and other visual elements
+
+130) Themes : Design > Themes to apply a consistent look to all slides
+
+131) Ctrl + R (in MS Outlook) : Reply to the selected email
+
+132) Ctrl + F (in MS Outlook) : Forward the selected email
+
+133) Ctrl + Shift + M (in MS Outlook) : Create a new email message
+
+134) Ctrl + Shift + A (in MS Outlook) : Create a new appointment
+
+135) Ctrl + Shift + Q (in MS Outlook) : Create a new meeting request
+
+136) Ctrl + Shift + K (in MS Outlook) : Create a new task
+
+137) Ctrl + Enter (in MS Outlook) : Send an email
+
+138) Ctrl + S (in MS Outlook) : Save a draft of the email
+
+139) Ctrl + 1 (in MS Outlook) : Go to Mail view
+
+140) Ctrl + 2 (in MS Outlook) : Go to Calendar view
+
+141) Ctrl + 3 (in MS Outlook) : Go to Contacts view
+
+142) Ctrl + N  (in MS Outlook) : Create a new email, appointment or task
+
+143) Rules (in MS Outlook) : Automate email organization and management based on criteria
+
+144) Quick Steps (in MS Outlook) : Apply multiple actions to emails with a single click
+
+145) Calendar Sharing (in MS Outlook) : Share your calendar with others and view theirs
+
+146) Out of Office Assistant (in MS Outlook) : Set automatic replies for when you are away
+
+147) People Pane (in MS Outlook) : View social network updates and recent communications with contacts
+
+148) Ctrl + E (in MS Outlook) : To search within your emails
+
+***149) In order to adjust any row's height in a spreadsheet, which of the following key combinations can be used? (in MS Excel)
+
+Ans : Alt + A + O + H 
+
+150) The zoom range in MS Excel is : 
+
+Ans : 10% to 400%
+
+151) 

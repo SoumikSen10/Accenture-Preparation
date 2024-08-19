@@ -137,3 +137,185 @@ Ans : Broadcast network
 35) Which layer provides the services to user?
 
 Ans : Application Layer
+
+36) Which protocol is used to assign IP addresses automatically to devices on a network?
+
+Ans: DHCP
+
+37) What is the primary purpose of a router in a network?
+
+Ans: To connect multiple devices within the same network
+
+38) Which layer of the OSI model is responsible for establishing, managing and terminating connections?
+
+Ans: Session Layer
+
+39) What does the ping command do?
+
+Ans: Tests the reachability of a host on an IP network.
+
+40) Which network topology has a central hub to which all other nodes are connected?
+
+Ans: Star
+
+41) Which protocol is commonly used for secure communication over a network?
+
+Ans: HTTPS
+
+42) What is the primary function of a firewall in network security?
+
+Ans: To block unauthorized access to or from a private network.
+
+43) Which of the following is considered a form of social engineering attack?
+
+Ans: Phishing
+
+44) What does the term "zero-day exploit" refer to?
+
+Ans: A security vulnerability that is unknown to the software vendor.
+
+45) Which of the following methods is most effective in preventing unauthorized access to an user's account?
+
+Ans: Enabling two-factor authentication(2FA)
+
+46) What is the purpose of encryption in cybersecurity?
+
+Ans: To hide data from unauthorized users
+
+47) Which type of malware encrypts an user's files and demands payment for the decryption key?
+
+Ans: Ransomware
+
+***48) What is the primary function of a VLAN (Virtual Local Area Network)?
+
+Ans: To reduce broadcast traffic
+
+49) Which protocol is used to securely transmit data over a VPN?
+
+Ans: IPSec
+
+50) What is the purpose of the ARP (Address Resolution Protocol)?
+
+Ans: To map IP addresses to MAC addresses
+
+***51) In the context of networking, what is the role of a gateway?
+
+Ans: To connect two different networks
+
+***52) Which layer of the OSI model is responsible for error detection and correction?
+
+Ans: Data Link Layer
+
+***53) What command is used to view the routing table in a network device?
+
+Ans: route
+
+***54) Which type of attack involves intercepting and altering communication between two parties without their knowledge?
+
+Ans: Man-in-the-Middle (MITM)
+
+***55) Which of the following is a technique used to identify vulnerabilities in a system by simulating an attack?
+
+Ans: Penetration Testing
+
+***56) Which cryptographic algorithm is most commonly used for securing internet communications?
+
+Ans: RSA
+
+***57) What is the primary purpose of a honeypot in cybersecurity?
+
+Ans: To act as a decoy to lure attackers
+
+***58) Which security protocol is used to ensure secure communication over a wireless network?
+
+Ans: WPA3
+
+***59) What is the purpose of a digital certificate in a public key infrastructure (PKI)?
+
+Ans: To verify the identity of the certificate holder
+
+***60) What is the primary function of a router in a network?
+
+Ans: To forward data packets between computer networks
+
+61)  What protocol is used for secure data transmission over the internet?
+
+Ans: HTTPS
+
+62) What is a firewall's main purpose?
+
+Ans: To block unauthorized access while permitting outward communication
+
+63) Which security method encrypts data to prevent unauthorized access?
+
+Ans: Encryption
+
+***64) What does AES stand for in encryption?
+
+Ans: Advanced Encryption Standard
+
+***65) Which encryption algorithm uses a 56-bit key?
+
+Ans: DES
+
+***66) What type of device is an UTM?
+
+Ans: Unified Threat Management device
+
+67) Which device inspects incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules?
+
+Ans: Firewall
+
+***68) What is a DDos attack?
+
+Ans: Distributed Denial of Service attack
+
+***69) Which attack involves sending unsolicited bulk messages?
+
+Ans: Spam
+
+***70) What is phishing?
+
+Ans: A technique to gain personal information for identity theft, using fraudulent emails
+
+***71) What is a stateful firewall?
+
+Ans: A firewall that monitors the state of active connections and determines which network packets to allow through the firewall
+
+***72) What is a packet-filtering firewall?
+
+Ans: A firewall that filters traffic by examining the header of each packet
+
+73) In  network, what attack involves forging an IP address to impersonate another device?
+
+Ans: Spoofing
+
+74) Consider the given URL : 
+    http://www.abc.org/rfc/rfc123.txt
+
+Ans : Protocol
+
+75) Which of the following security standard has the possibility of breaking the encryption during the initial 4 - way handshake?
+
+Ans : Both WPA and WPA2
+
+76) Antivirus scanning devices fall under which type of network security device?
+
+Ans : Active devices
+
+77) Which layer of the OSI model is responsible for data encryption?
+
+Ans : Presentation Layer
+
+***78) Attack in which an user creates a packet that appears to be something else is
+
+Ans : Spoofing
+
+79) Which of the following is NOT a type of cloud computing service?
+
+Ans : Desktop as a Service (DaaS)
+
+80) DES Encryption algorithm is an example of which of the following options?
+
+Ans : Bit-oriented cipher
+

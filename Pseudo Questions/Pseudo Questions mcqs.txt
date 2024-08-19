@@ -267,3 +267,314 @@ Ans: 13 12
     }
 
 Ans: 0
+
+26) Integer n = 5
+    Integer result = 1
+    for (i=1;i<=n;i++)
+      result = result * i
+      if(result > 10)
+        break
+      Print result
+
+Ans: 24
+
+27) Function Fibo(Integer n)
+      if(n<=1)
+        return n
+      else
+        return Fibo(n-1) + Fibo(n-2)
+    End Function
+    Print Fibo(5)
+
+Ans: 5
+
+28) Integer arr[]={2,4,6,8,10}
+    Integer sum=0
+    for (i=0;i<length(arr);i++)
+      if(arr[i]%4==0)
+        sum=sum+arr[i]
+    Print sum
+
+Ans: 12
+
+29) String str="Programming"
+    Integer count=0
+    for (i=0;i<length(str);i++)
+      if(str[i]=='g')
+        count=count+1
+    Print count
+
+Ans: 2
+
+30) What will be the output of the following pseudocode?
+
+    Integer a=3,b=5,c=7
+     if(a<b)
+      if(b<c)
+        a=c-a
+      else
+        b=c+a
+    Print a,b,c
+
+Ans: 4,5,7
+
+31) Integer arr[]={1,2,3,4,5}
+    Integer n=length(arr)
+    Integer temp=arr[n-1]
+    for(i=n-1;i>0;i--)
+       arr[i]=arr[i-1]
+    arr[0]=temp
+    Print arr
+
+Ans: 5 1 2 3 4
+
+32) Function example(a,b)
+     while (a<b)
+      a=a*2
+     end while
+     return a
+    End Function
+
+Output = example(3,20)
+
+Ans: 24
+
+33) Function mystery(n)
+     if(n<=1)
+       return 1
+     else
+       return n*mystery(n-2)
+    End Function
+
+Output = mystery(5)
+
+Ans: 15
+
+34) Function test(x)
+     if(x>10)
+       return x*2
+     else
+       return x+2
+     End Function
+
+Output = test(10)
+
+Ans: 12
+
+35) Function recursive(a)
+      if(a<0)
+        return 0
+      else 
+        return a + recursive(a-2)
+    End Function
+
+Output = recursive(5)
+
+Ans: 9
+
+36) Function reverseArray(arr)
+      n = length(arr)
+      for i = 0 to n/2 - 1
+        temp = arr[i]
+        arr[i] = arr[n-i-1]
+        arr[n-i-1] = temp
+      end for
+      return arr
+    End Function
+
+Output = reverseArray([1,2,3,4,5])
+
+Ans: [5,4,3,2,1]
+
+37) Function sumDigits(num)
+     sum = 0
+     while num > 0
+       sum = sum + (num mod 10)
+       num = num div 10
+     End while
+     return sum
+    End Function
+
+Output = sumDigits(1234)
+
+Ans: 10
+
+38) What will be output of following pseudo code for a=9, b=7?
+     
+    Integer funn(Integer a, Integer b)
+      Integer c
+      Set c=2
+      b=b mod c
+      a=a mod c
+      return a + b
+    End function funn()
+
+Ans : 2
+
+39) What will be the output of the following pseudocode?
+
+    Integer a, b, c
+    Set a=8,b=6,c=4
+    If(a>b)
+      a=b
+    Else
+      b=a
+    End If
+    If (c>b)
+      c=b
+    Else
+      b=c
+    End If
+    Print a+ b+ c
+
+Ans: 14
+
+40) What will be output of following pseudo code for a=30, b=60, c=90?
+
+    Integer a, b, c, sum
+    Read a, b, c
+    Set sum=a + b + c
+    if ((sum EQUALS 180) and (a NOT EQUALS 0) and (b NOT EQUALS 0) and (c NOT EQUALS 0))
+       Print "Success"
+    Otherwise
+       Print "Fail"
+    End if
+
+Ans: Success
+
+41) What will be the output of the following pseudocode for a=1,b=2?
+
+    Integer funn(Integer a, Integer b)
+      if(a<3 and b<4)
+        return funn(a+1,b+1)
+      else
+        return a + b
+      End if
+    End function funn()
+
+Ans: 7
+
+42) What will be the output of the following pseudocode for a=2,b=6?
+
+    Integer funn(Integer a, Integer b)
+      if(a>0)
+        if(b>0)
+          return a + b + funn(a+1,0)+funn(a+2,0)+funn(a+3,0)
+        End if
+      End if
+      return a + b
+    End function funn()
+
+Ans: 20
+
+43) What will be the output of the following pseudocode for a=4, b=6?
+
+    Integer funn(Integer a, Integer b)
+      if(a>2)
+        if(b>2)
+          return a + b + funn(a+1,b-5)
+        End if
+      End if
+      return a-b
+     End function funn()
+
+Ans: 14
+
+44) What will be the output of the following pseudocode?
+
+    Integer p, q, r
+    Set p=3,q=1,r=2
+    If (p+(2 & 2 & 2) and q+ (3 & 3 & 3) and r+(2^2^2))
+      p=p-2q=p
+    Else
+      p=r
+      q=q^2
+    End If
+    Print p + q + r
+
+Ans: 4
+
+45)  What will be the output of the following pseudocode?
+     
+     Integer p, q, r 
+     Set p=0,q=4,r=3
+     If (p or r)
+       If (p and r)
+         p=p & r
+       End If
+      p = p ^ r
+     End If 
+     Print p + q + r
+
+Ans: 10
+
+46) What will be the output of the following pseudocode?
+     
+    Integer x
+    Set x=5
+    x=x+5
+    Print x
+
+Ans: 10
+
+47) What does the following pseudocode do?
+
+    Integer x
+    Set x=10
+    Print x
+
+Ans: Prints the value 10
+
+48) What will be the output of the following pseudocode?
+
+    Integer i
+    for(i=0 to 4)
+    Print "Hello"
+    end for
+
+Ans: "Hello" is printed 5 times
+
+49) What is the value of sum after executing the following pseudocode?
+
+    Integer i, sum
+    Set sum = 0
+    for(i=1 to 5)
+      sum = sum + i
+    end for
+
+Ans: 15
+
+50) What will be the output of the following pseudocode?
+
+    Integer arr[3] = {2,4,6}
+    Print arr[1]
+
+Ans: 4
+
+51) Integer a, b, c
+    Set b=4, c=5
+    for(each a from 2 to 4)
+      print c
+      b=b-1
+      c=c + b
+     end for
+
+Ans : 5 8 10
+
+52) How many times is the recursive function called, when the following code is executed?
+
+Ans : void my_recursive_function(int n)
+      {
+        if(n==0)
+         return;
+        printf("%d",n);
+        my_recursive_function(n-1);
+      }
+      int main()
+      {
+        my_recursive_function(10);
+        return 0;
+      }
+
+Ans : 11 times
+
