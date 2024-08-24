@@ -481,4 +481,140 @@ Ans : Alt + A + O + H
 
 Ans : 10% to 400%
 
-151) 
+***151) Which of the following shortcut key is used to change the case of the selected text?
+
+Ans : Shift + F3
+
+***152) Which of the following is not a font style?
+
+Ans : Superscript
+
+153) While starting MS Word, the opening menu has the default title?
+
+Ans : Document1
+
+154) Spelling, Grammar and Thesaurus are found in which tab?
+
+Ans : Review tab
+
+155) Which of these toolbars allows changing of Fonts and their sizes?
+
+Ans : Formatting
+
+156) Which shortcut key is used to spell check in MS-Word
+
+Ans : F7
+
+157) The special effects in a PowerPoint presentation used to introduce slides are called as
+
+Ans : Transitions
+
+158) Which of the following isn't a part of a spreadsheet?
+
+Ans : Column number
+
+159) How do you select an entire column?
+
+Ans : Click the column heading letter
+
+160) The name of the document in MS Word is displayed on
+
+Ans :  Title Bar
+
+161) How many columns can you insert into a Word document at most?
+
+Ans : 63
+
+162) Which of the following can create a vertical divide between columns?
+
+Ans : Margin
+
+163) Which of the following is not a font style?
+
+Ans : Manuscript
+
+164) What shortcut key is used for line breaks?
+
+Ans : Shift + Enter
+
+165) How does MS Word react to repeated words?
+
+Ans : A red wavy line with a repeating word in it
+
+166) Which is not a margin type?
+
+Ans : Center
+
+167) Shortcut key to align the center?
+
+Ans : Ctrl + E
+
+168) Which of the following function key is used to rename a selected file?
+
+Ans : F2
+
+***169) To insert the character shown below what will be the correct shortcut key combination?
+
+Image --> ( Capital C within a circle)
+
+Ans : Alt + Ctrl + C
+
+170) Command for closing all the tabs that are either active or inactive in browser?
+
+Ans : Ctrl + Shift + W
+
+171) What is gutter margin?
+
+Ans : Margin that is added to the binding side of page when printing
+
+172) What is the default font and size in MS Office?
+
+Ans : Calibri, 11
+
+173) Which of the following menu in PowerPoint includes the Picture, Text Box, Shapes, Clip Art?
+
+Ans : Insert
+
+174) What is the shortcut key to highlight the entire column?
+
+Ans : Ctrl + Space Bar
+
+175) When you insert an excel file into a word document. The data are
+
+Ans : Linked
+
+176) By default Excel provides 3 worksheets. You need only two of them, how will you delete the third one?
+
+Ans : Right click on Sheet Tab of third sheet and choose Delete from the context menu
+
+177) Which tab in Excel is used to create charts?
+
+Ans : Insert
+
+178) Which view allows you to see all slides in a presentation simultaneously?
+
+Ans : Slide Sorter View
+
+***179) What is the formula to count the number of cells that meet multiple criteria in Excel?
+
+Ans : COUNTIFS
+
+180) Which Excel function can be used to return the relative position of an item in an array that matches a specified value?
+
+Ans : MATCH
+
+181) Which function can dynamically filter data based on a criteria in Excel?
+
+Ans : FILTER
+
+182) How can you combine text from multiple cells into one cell, separated by commas, in Excel?
+
+Ans : CONCAT
+
+***183) In PowerPoint, which view allows you to edit the master slides that define the default layout and styles for the entire presentation?
+
+Ans : Slide Master View
+
+
+
+

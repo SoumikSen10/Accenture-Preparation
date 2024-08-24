@@ -578,3 +578,41 @@ Ans : void my_recursive_function(int n)
 
 Ans : 11 times
 
+53) #include<stdio.h>
+    int main()
+    {
+      int x=11,y=4,z=3;
+      y!=!x;
+      z=!!x;
+      printf("%d %d", y, z);
+      return 0;
+    }
+
+Ans : 4,1
+
+54) #include<stdio.h>
+    int main()
+    {
+      int x=2,y=0,z=3;
+      x>y ?(printf("%d", z)):(return z);
+    }
+
+Ans : Error
+
+55) Integer a, b, c
+    Set a=6,b=84
+    while(b>0)
+      b=b/2
+      a=a+6
+      c=a + b
+      while(c>40)
+        if(c mod 2 IS EQUAL TO 0)
+           Print a
+        else
+           Print b
+           c=c/10
+        End while
+      End while
+     Print c
+
+Ans : 12 1 48 4

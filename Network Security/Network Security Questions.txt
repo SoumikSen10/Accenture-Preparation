@@ -311,11 +311,153 @@ Ans : Presentation Layer
 
 Ans : Spoofing
 
-79) Which of the following is NOT a type of cloud computing service?
+***79) Which of the following is NOT a type of cloud computing service?
 
 Ans : Desktop as a Service (DaaS)
 
-80) DES Encryption algorithm is an example of which of the following options?
+***80) DES Encryption algorithm is an example of which of the following options?
 
 Ans : Bit-oriented cipher
+
+***81) Which of the following computer networks is built on the top of another network?
+
+Ans : Overlay network
+
+82) To attach a file-folder with email, what would you choose?
+
+Ans : Zip
+
+83) In the cryptography, the sequence of the letters is arranged by?
+
+Ans : Transposition ciphers 
+
+84) Which of the following is not the benefit of the cloud if you chose platform as a service?
+
+Ans : Management of Middleware
+
+85) DES(Data Encryption Standard) Encryption algorithm is an example of which of the following options?
+
+Ans : Bit-oriented cipher
+
+86) Which software prevents the external access to a system?
+
+Ans : Firewall
+
+87) The term FTP stands for ?
+
+Ans : File Transfer Protocol
+
+88) Which of the following types of network security ensures that potential attackers cannot infiltrate your network?
+
+Ans : Virtual Private Network
+
+89) Antivirus scanning devices fall under which type of network security device?
+
+Ans : Active devices
+
+90) The correct order of corresponding OSI layers for having functionalities of routing and reconciling machine representation differences with shared access resolution and ASCII test protocol is?
+
+Ans : Network, Presentation, Data link, Application
+
+91) The term WAN stands for?
+
+Ans : Wide Area Network
+
+92) Which of the following cloud metric shows the time it will take for any work on the virtual environment and for the virtual environment to complete the request?
+
+Ans : Response Time Metric
+
+93) In specific, if the system use separate protocols, which one of the following devices is used to link two systems?
+
+Ans : Gateway
+
+94) Bit rate control is a function of which of the following layer of the OSI model?
+
+Ans : Physical Layer
+
+95) Which of the following protocol is used for remote login?
+
+Ans : TELNET
+
+***96) Which of the following ensures a loop free topology that is used for bridge ethernet local area network?
+
+Ans : Spanning tree protocol
+
+97) Attack in which an user creates a packet that appears to be something else is?
+
+Ans : Spoofing
+
+98) An operating system running on a type ____ VM is full virtualization.
+
+Ans : 1 
+
+99) ____ applications have a much lower barrier to entry than their locally installed competitors.
+
+Ans : None (none of CaaS, IaaS, PaaS)
+
+100) Security features that control that can access resources in the OS.
+
+Ans : Access Control
+
+101) An algorithm in encryption is called _____.
+
+Ans : Cipher
+
+102) Which of these is a part of network identification?
+
+Ans : UserID
+
+103) Which type of topology is best suited for large businesses which must carefully control and coordinate the operation of distributed branch outlets?
+
+Ans : Star
+
+104) The location of a resource on the internet is given by its?
+
+Ans : URL
+
+105) Which type of attack floods a network with an overwhelming amount of traffic to disrupt its normal operation?
+
+Ans : DDoS (Distributed Denial of Service) 
+
+106) Full form of VDU ?
+
+Ans : Visual Display Unit
+
+107) Which routing protocol uses hop count as a routing metric and is classified as a distance-vector protocol?
+
+Ans : RIP
+
+108) What is the purpose of a subset mask in an IP network?
+
+Ans : To define the network and host portions of an IP address
+
+109) Which layer of the OSI model is responsible for reliable data transfer and flow control?
+
+Ans : Transport Layer
+
+110) In IPV6, what is the primary purpose of the :: notation?
+
+Ans : To represent consecutive groups of zeroes
+
+111) In a wireless network, which of the following technologies is used to identify and manage devices in a network?
+
+Ans : SSID (service set identifier)
+
+112) Which type of malware replicates itself to spread to other systems?
+
+Ans : Worm
+
+113) Which cryptographic technique is used to ensure data integrity?
+
+Ans : Hashing
+
+114) Which routing protocol uses a link-state routing algorithm to maintain a map of the network?
+
+Ans : OSPF
+
+115) What type of security attack involves flooding a network with excessive requests to cause service disruption?
+
+Ans : DDoS
+
+116) 
 

@@ -266,3 +266,46 @@ Ans : Azure ,GCP and AWS -> none of them provides application lifecycle manageme
 
 Ans : Elastic computing
 
+***68) Which of the following is an application monitoring and observability service?
+
+Ans : Amazon CloudWatch
+
+***69) Which of the following metric shows the ratio of time a system or component is functional to the total time it is required or expected to function?
+
+Ans : Reliability Time
+
+70) Which of the following is not a type of cloud server?
+
+Ans : Merged Cloud Server
+
+71) Which of the following is the application of cloud computing?
+
+Ans : All (Adobe, PayPal, Google G Suite)
+
+72) Which of the following is an example of the cloud?
+
+Ans  : All (AWS, Dropbox, Cisco WebEx)
+
+73) Which of the following is an example of a PaaS cloud service?
+
+Ans : All (Heroku, AWS Elastic Beanstalk, Windows Azure)
+
+74) Which of the following payment options is best suited for small business in cloud?
+
+Ans :  pay-as-you-go
+
+75) Which of the following has many features of that is now known as cloud computing?
+
+Ans : Internet
+
+76) Which of the following is an essential concept related to Cloud?
+
+Ans : Abstraction
+
+77) Cloud computing is a concept that involves pooling physical resources and offering them as which sort of resource?
+
+Ans : virtual
+
+78) What is the maximum file size that can be uploaded to an object storage service in a single PUT operation in Amazon S3?
+
+Ans : 5 GB
