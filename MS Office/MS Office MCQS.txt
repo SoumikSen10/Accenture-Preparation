@@ -615,6 +615,20 @@ Ans : CONCAT
 
 Ans : Slide Master View
 
+184) Choose one among these options that doesn't form a part of standard office suite?
 
+Ans : File Manager
 
+185) Extension of MS Excel
 
+Ans : .xls
+
+186) The cell reference for a range of cells that starts in cell F2 and goes over to column I and down to row 12 is?
+
+Ans : F2:I12
+
+187) Which one is the most suitable reason to use Macro in MS Office (Word, Excel, PPT, etc) ?
+
+Ans : To automate repetitive tasks
+
+188) 

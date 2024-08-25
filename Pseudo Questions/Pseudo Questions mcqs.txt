@@ -616,3 +616,18 @@ Ans : Error
      Print c
 
 Ans : 12 1 48 4
+
+***56) In social networking site, using which of the following algorithm you can find the people within your close proximity?
+
+Ans : Breadth First Search & Depth First Search (since not stated can be unweighted graph also)
+
+***57) Which of the following is/are True for the shortest path in minimum spanning tree for unweighted graph?
+
+Ans : (a) Th shortest path is the one with minimum number of edges
+      (b) Only BFS can be used not DFS for finding MST
+
+***58) Insertion in a BST is which of the following type of recursion?
+
+Ans : Head Recursion
+
+59) 
