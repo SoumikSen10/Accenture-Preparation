@@ -309,3 +309,21 @@ Ans : virtual
 78) What is the maximum file size that can be uploaded to an object storage service in a single PUT operation in Amazon S3?
 
 Ans : 5 GB
+
+79) In AWS you can create DB instances by using which of the following?
+
+Ans : AWS Management Console, Amazon RDS APIs, AWS Command Line Interface
+
+80) If you want to share data between different EC2 instances then which of the following file storage solution you should opt for?
+
+Ans : EFS
+
+81) SaaS --> Google Workspace, Dropbox, Salesforce, Cisco WebEx, Concur, GoToMeeting
+    PaaS --> AWS Elastic Beanstalk, Windows Azure, Heroku, Force.com, Google App Engine, Apache Stratos, OpenShift
+    IaaS --> DigitalOcean, Linode, Rackspace, Amazon Web Services (AWS), Cisco Metapod, Microsoft Azure, Google Compute Engine(GCE)
+
+82) In MS Word, if you have to indent the paragraph then which of the following shortcut key you should use?
+
+Ans : Ctrl + M
+
+83) 

@@ -631,4 +631,109 @@ Ans : F2:I12
 
 Ans : To automate repetitive tasks
 
-188) 
+188) Portrait and Landscape are
+
+Ans : Page Orientation
+
+189) What is the minimum number of rows and columns in MS Word Table?
+
+Ans : 1 and 1
+
+190) Which would you choose to display the statistics about a document?
+
+Ans : tools, word count
+
+191) What is the default font used in MS Word document?
+
+Ans : Calibri
+
+192) What is the shortcut key to close Active Document in Microsoft Word?
+
+Ans : Ctrl + F4
+
+193) It is software for creating newsletters, business cards, flyers, greeting cards or post-cards.
+
+Ans : Microsoft Publisher
+
+194) The ability to combine name and address with a standard document is called ____.
+
+Ans : Mail Merge
+
+195) ____ is a technology that creates and handles dynamic documents.
+
+Ans : CGI (Common Gateway Interface)
+
+196) The SYN flooding attack belongs to a group of security attacks known as a ___ attack.
+
+Ans : Denial of Service
+
+197) An algorithm in encryption is called _____.
+
+Ans : Cipher
+
+198) What is ransomware?
+
+Ans : A software that hijacks your computer and asks you to pay in order for it to be removed.
+
+199) Which of the following has network reliability issues?
+
+Ans : Frequency of failures, Catastrophe, Recovery time after failure
+
+200) A digital signature scheme consists of which of the following 
+
+Ans : Key generation, signing and signature verifying algorithm
+
+201) Choose shortcut to open dialogue box
+
+Ans : Ctrl + F12
+
+202) Which option will you choose if you want to copy the formatting of a document that is Bold, Red in color with green background to another paragraph in one go?
+
+Ans : Format Painter
+
+203) Which of the following can be termed as a collection of information saved as unit.
+
+Ans : File
+
+204) Which tab has different theme styles?
+
+Ans : Design Tab
+
+205) Keys used in MS Word to move text one level right?
+
+Ans : Shift + Tab
+
+206) In MS Word, if you want to repeat the last action performed then which of the following keys should be used?
+
+Ans : Ctrl+ Y
+
+207) Which key is used to refresh a MS Word document?
+
+Ans : F5
+
+208) Which of the following application have a conditional formatting option?
+
+Ans : MS Excel
+
+209) In MS Word you can insert a page number in 
+
+Ans : Both Header and Footer
+
+210) Shortcut key to start spell check in MS Word?
+
+Ans : Alt + F7
+
+211) In MS Word, if you want to repeat the last action performed then which of the following keys is used?
+
+Ans : F4
+
+212) What is the purpose of the INDIRECT function in Excel?
+
+Ans : To return the reference specified by a text string
+
+213) While applying conditional formatting in excel, we can check the conditions against _____.
+
+Ans : Formula and Cell Value
+
+214) 
+

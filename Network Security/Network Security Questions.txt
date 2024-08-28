@@ -459,5 +459,118 @@ Ans : OSPF
 
 Ans : DDoS
 
-116) 
+116) Gateway provides the connection between ___ and ____.
 
+Ans : Cloud and Controller
+
+117) Common LAN topologies are
+
+Ans : Bus and Ring , Star
+
+118)  Which of the following cloud service providers should be preferred if most of your data is of Binary large objects type?
+
+Ans : Azure
+
+119) Which of the following attacks treats the encryption algorithm as a black box?
+
+Ans : Brute-force attack
+
+120) Which of the following is not vulnerability of the network layer?
+
+Ans : Weak or non-existent authentication
+
+121) Stub in a network is known as :
+
+Ans : Having only one exit and one entry point
+
+122) Which of the following protocol used by ping?
+
+Ans : ICMP
+
+123) Which of the following function is used for collision avoidance before transmission is optional?
+
+Ans : Point Coordination Function
+
+124) Which of the following is considered as the unsolicited commercial email?
+
+Ans : Spam
+
+125) Which of the following has many features that are now known as Cloud computing?
+
+Ans : Internet
+
+126) In OSI reference model, which of the following data units is exchanged between two transport layers?
+
+Ans : Frame
+
+127) Which of the following network devices is used to transmit digital signals?
+
+Ans : Modem
+
+128) Bridge can be used to join
+
+Ans : Both
+      An unshielded twisted-pair cabling and fiber optic cabling
+      Token Ring and Ethernet
+
+129) In TCP/IP model, which of the following protocol is used on Internet layer?
+
+Ans : ARP
+
+130) Which of the following is used to establish a VPN connection?
+
+Ans : OpenSwan
+
+131) In Even parity (in error detection) the parity bit is zero for ______ .
+
+Ans : 10111000 (since even no. of 1s are present)
+
+132) In the Internet, the checksum technique is mostly used at which of the OSI layer?
+
+Ans : Network Layer and Transport Layer
+
+133) In MS Excel, which of the following shortcut key is used to select the entire row?
+
+Ans : Shift + Space
+
+135)  In TCP/IP model, which of the following protocol is used on transport layer?
+
+Ans : UDP
+
+136) Which of the following layer of OSI model adds Logical addresses of the sender and receivers?
+
+Ans : Network Layer
+
+137) Which of the following type of error occurs in both parallel and serial communication system?
+
+Ans : Multiple Bit Errors, Single Bit Errors , Burst Error
+
+138) Which of the following would be the correct description for WORM virus?
+
+Ans : It propagates through the internet and e-mail
+
+139) Which of the following command remove the paragraph format.
+
+Ans : Ctrl + Q
+
+140) Which of these function is used to land into a specific location of a document?
+
+Ans : bookmark
+
+141) The use of the IC in a computer has ____
+
+Ans : Reduced the size and cost of computers
+
+142) A component of a circuit that allows current to pass in one direction yet blocks the flow of current in the other direction
+
+Ans : Diode
+ 
+143) Which of the following is used to handle outgoing emails?
+
+Ans : POP3
+
+144) Which popular web browser uses a rendering engine called "Blink"?
+
+Ans : Google Chrome
+
+145) 
