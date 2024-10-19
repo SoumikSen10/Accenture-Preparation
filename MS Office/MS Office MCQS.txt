@@ -735,5 +735,36 @@ Ans : To return the reference specified by a text string
 
 Ans : Formula and Cell Value
 
-214) 
+214) Which of the following check box is used for removing the default cell Border from an excel sheet ?
 
+Ans : Gridlines
+
+215) If you have to enter today's date in the Excel sheet then which of the following should be used?
+
+Ans : Ctrl + Shift + ;
+
+216) As per the binary system, how many bits are there in a kilobyte?
+
+Ans : 8000
+
+217) Which of the following application is used for compressing a folder to be attached to an email?
+
+Ans : WINZIP
+
+218) In MS-EXCEL ____ is used to prepare a list of rules to limit the type of data that can be entered in a cell?
+
+Ans : Data validation
+
+219) While preparing a word document if you want to keep a logo at the top of every page then in which of the following you should put it?
+
+Ans : Header
+
+220) If you want to create a customized set of commands for MS office then which of the following can be used?
+
+Ans : Quick Access toolbar
+
+221) In MS Word which of the following is used to add a page break at the cursor's current position?
+
+Ans : Ctrl + Enter
+
+222) 

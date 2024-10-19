@@ -573,4 +573,40 @@ Ans : POP3
 
 Ans : Google Chrome
 
-145) 
+145) Which of the following cloud computing technology helps to use application as a service for other application regardless of the type of vendor product or Technology.
+
+Ans : Service-Oriented Architecture
+
+146) If period of a signal is 1000 ms, what is it's frequency in kilohertz?
+
+Ans : 10^-3 KHz
+
+147) Find out the number of duplex mode links required for a fully connected mesh topology with 10 devices?
+
+Ans : 45   [formula us n*(n-1)/2]
+
+148) Which of the following key characteristic of cloud computing state that it can be accessed from anywhere and at any time.
+
+Ans : Broad network access
+
+149) Gateways (networking device) are used on which of the following layer of the OSI model.
+
+Ans : Network Layer
+
+150) Which of the following cloud computing model delivers development environment as a service
+
+Ans : PAAS
+
+151) As per which of the following is a characteristic of cloud there should be an ability to provide immediate scalable services?
+
+Ans : Resource Pooling
+
+152) The given IP address belongs to which of the following IP classes 130.5.4.77
+
+Ans : Class B
+
+153) Which of the following email service protocol is used to sending emails?
+
+Ans : SMTP
+
+154) 
