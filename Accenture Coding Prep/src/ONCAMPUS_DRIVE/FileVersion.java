@@ -58,7 +58,6 @@ public class FileVersion
 
     private static int generate(String[] s, int n)
     {
-        List<Integer> list = new ArrayList<>();
         int maxVersion = Integer.MIN_VALUE;
         for(String str : s)
         {

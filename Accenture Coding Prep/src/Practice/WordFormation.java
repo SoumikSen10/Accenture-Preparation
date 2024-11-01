@@ -18,7 +18,7 @@ public class WordFormation
         Scanner in = new Scanner(System.in);
         String s = in.next();
         int n = in.nextInt();
-        String s1 = generate(s);
+        String s1 = practice(s);
         System.out.println(s1);
         if(s1.length()>n)
             System.out.println(s1.charAt(n-1));
@@ -28,7 +28,6 @@ public class WordFormation
 
     private static String generate(String s)
     {
-        char ch;
 
         String s1="";
 
@@ -43,6 +42,24 @@ public class WordFormation
         }
 
         return s1;
+    }
+
+    private static String practice(String s)
+    {
+        String s1="";
+
+        for(int i=0;i<s.length();i+=2)
+        {
+            int num = (int)(s.charAt(i+1)-'0');
+            while(num!=0)
+            {
+                s1+=s.charAt(i);
+                num--;
+            }
+        }
+
+        return s1;
+
     }
 
 }

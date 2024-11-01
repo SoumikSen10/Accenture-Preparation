@@ -43,4 +43,19 @@ public class CountSuperior
         }
         return c;
     }
+
+    private static int practice(int[] arr,int n)
+    {
+        int superior=Integer.MIN_VALUE;
+        int c=0;
+        for(int i=n-1;i>=0;i--)
+        {
+            if(arr[i]>superior)
+            {
+                superior=arr[i];
+                c++;
+            }
+        }
+        return c;
+    }
 }

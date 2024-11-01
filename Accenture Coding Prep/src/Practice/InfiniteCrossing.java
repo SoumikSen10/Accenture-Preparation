@@ -4,9 +4,9 @@ Infinite number of people are crossing a 2-d plane. They march in such a way tha
 
 You have to implement the function.
 
-The functinon takes an integer matrix having n rows and 3 columns where n denotes the number of barriers. The ith barrier is defined by (xi,yi,di), which means that the barrier is blocking all the people who want to pass through points lying on line segment connecting (xi,yi) and (xi+d,yi). Once a person encounters a barrier, he stops.
+The function takes an integer matrix having n rows and 3 columns where n denotes the number of barriers. The ith barrier is defined by (xi,yi,di), which means that the barrier is blocking all the people who want to pass through points lying on the line segment connecting (xi,yi) and (xi+d,yi). Once a person encounters a barrier, he stops.
 
-The function takes an integer matrix barrier having n rows and 3 columns where n denotes the number of barriers. The ith barrier is defined by (xi,yi,di) , which means that the barrier is blocking all the people who want to pass through points lying on line segment connecting (xi,yi) and (xi+d,yi). Once a person encounters a barrier, he stops.
+The function takes an integer matrix barrier having n rows and 3 columns where n denotes the number of barriers. The ith barrier is defined by (xi,yi,di) , which means that the barrier is blocking all the people who want to pass through points lying on the line segment connecting (xi,yi) and (xi+d,yi). Once a person encounters a barrier, he stops.
 
 */
 

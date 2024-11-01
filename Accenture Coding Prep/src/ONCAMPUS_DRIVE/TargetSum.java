@@ -57,9 +57,36 @@ public class TargetSum
             arr[arr.length - i - 1] = temp;
         }
 
-        int res[] = findPair(arr,n,target);
-        System.out.println(Arrays.toString(res));
+//        int res[] = findPair(arr,n,target);
+//        System.out.println(Arrays.toString(res));
 
+        int ans[] = practice(arr,n,target);
+        System.out.println(Arrays.toString(ans));
+
+
+    }
+
+    private static int[] practice(int[] arr,int n,int target)
+    {
+        int res[]=new int[2];
+        Arrays.fill(res,0);
+        int maxProduct=0;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=i+1;j<n;j++)
+            {
+                if(arr[i]+arr[j]==target)
+                {
+                    int product = arr[i]*arr[j];
+                    if(product>maxProduct)
+                    {
+                        res[0] = arr[i];
+                        res[1] = arr[j];
+                    }
+                }
+            }
+        }
+        return res;
     }
 
     private static int[] findPair(int[] arr,int n,int target)

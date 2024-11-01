@@ -78,6 +78,7 @@ public class MarsStone
     {
         if(currentSum>M)
             return 0;
+
         if(index == stones.size())
             return currentCount;
 

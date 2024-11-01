@@ -13,7 +13,7 @@ public class StringPermutations
         String str = in.nextLine();
         System.out.println("No of permutations :"+fact(str));
         List<String> ans = new ArrayList<>();
-        permutations(str,ans,"");
+        practice(str,ans,"");
         for(String el : ans)
         {
             System.out.print(el+" ");
@@ -45,6 +45,23 @@ public class StringPermutations
                 permutations(remaining,ans,prefix+current);
             }
         }
+    }
+
+    private static void practice(String str, List<String> ans, String prefix)
+    {
+        if(str.length()==0)
+            ans.add(prefix);
+
+        else
+        {
+            for(int i=0;i<str.length();i++)
+            {
+                char current = str.charAt(i);
+                String remaining = str.substring(0,i) + str.substring(i+1);
+                permutations(remaining,ans,prefix+current);
+            }
+        }
+
     }
 
 

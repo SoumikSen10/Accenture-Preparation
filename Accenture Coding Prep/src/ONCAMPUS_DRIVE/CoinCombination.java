@@ -22,6 +22,7 @@ Explanation: The minimum number of coins to make 11 is 3 (5 + 5 + 1).
 */
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -42,17 +43,10 @@ public class CoinCombination {
 //        else
 //            System.out.println(count);
 
-        List<List<Integer>> dp = new ArrayList<>();
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, -1); // Use -1 to indicate an uncomputed state
 
-        for (int i = 0; i <= n; i++) {
-            List<Integer> row = new ArrayList<>();
-            for (int j = 0; j <= amount; j++) {
-                row.add(-1); // Initialize with -1
-            }
-            dp.add(row);
-        }
-
-        int count = findChange(dp, coins, 0, amount);
+        int count = findCombination( coins, 0,amount,dp);
         if (count == Integer.MAX_VALUE - 1)
             System.out.println(-1);
         System.out.println(count);
@@ -61,32 +55,66 @@ public class CoinCombination {
 
     //using dp
 
-    private static int findChange(List<List<Integer>> dp, int[] coins, int index, int amount) {
-        if (index >= coins.length)
-            return Integer.MAX_VALUE - 1;
-
-        if (amount == 0)
+    private static int findCombination(int[] coins, int index, int amount, int[] dp) {
+        // Base case: if amount is zero, no coins are needed
+        if (amount == 0) {
             return 0;
-
-        if (dp.get(index).get(amount) != -1) {
-            return dp.get(index).get(amount);
         }
 
-        int pick = Integer.MAX_VALUE - 1, notpick = Integer.MAX_VALUE - 1;
+        // If amount becomes negative or index exceeds the length of the coins array, return a large value to indicate an invalid state
+        if (amount < 0 || index >= coins.length) {
+            return Integer.MAX_VALUE - 1;
+        }
 
+        // Check the dp table for a previously computed result for this amount
+        if (dp[amount] != -1) {
+            return dp[amount];
+        }
+
+        // Try picking the current coin and explore further
+        int pick = Integer.MAX_VALUE - 1;
         if (coins[index] <= amount) {
-            pick = 1 + findChange(dp, coins, index, amount - coins[index]);
+            pick = 1 + findCombination(coins, index, amount - coins[index], dp);
         }
 
-        notpick = findChange(dp, coins, index + 1, amount);
+        // Try not picking the current coin and move to the next coin
+        int notPick = findCombination(coins, index + 1, amount, dp);
 
-        int result = Math.min(pick, notpick);
+        // Take the minimum of the two choices
+        int result = Math.min(pick, notPick);
 
-        dp.get(index).set(amount, result);
-
+        // Store the result in the dp table and return it
+        dp[amount] = result;
         return result;
+    }
+
+    private static int practice(int[] coins,int amount)
+    {
+       int minCoins = Integer.MAX_VALUE;
+
+       for(int i=coins.length-1;i>=0;i--)
+       {
+           int currAmt = amount;
+           int coinCount=0;
+
+           for(int j=i;j>=0;j--)
+           {
+               while(currAmt>=coins[j])
+               {
+                   currAmt-=coins[j];
+                   coinCount++;
+               }
+           }
+
+           if(currAmt==0)
+               minCoins = Math.min(minCoins,coinCount);
+       }
+
+       return minCoins == Integer.MAX_VALUE ? -1 : minCoins;
 
     }
+
+
 }
 
 /*
@@ -147,6 +175,10 @@ The result is 3 because you can use 5 + 5 + 1 to make 11 with only 3 coins.
 //         return Math.min(pick,notpick);
 //
 //    }
+
+
+
+
 
 
 

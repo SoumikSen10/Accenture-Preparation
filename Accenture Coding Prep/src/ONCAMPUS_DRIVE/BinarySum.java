@@ -35,7 +35,7 @@ public class BinarySum
         String a = in.next();
         String b = in.next();
 
-        String ans = addBinary(a,b);
+        String ans = practice(a,b);
         System.out.println(ans);
 
     }
@@ -66,6 +66,33 @@ public class BinarySum
         }
 
         // Reverse the result as we're adding digits from the end
+        return ans.reverse().toString();
+    }
+
+    private static String practice(String a ,String b)
+    {
+        int i=a.length()-1,j=b.length()-1,carry=0;
+
+        StringBuilder ans = new StringBuilder();
+
+        while(i>=0 || j>=0 || carry!=0)
+        {
+            if(i>=0)
+            {
+                carry = carry + a.charAt(i)-'0';
+                i--;
+            }
+
+            if(j>=0)
+            {
+                carry = carry + b.charAt(j)-'0';
+                j--;
+            }
+
+            ans.append(carry%2);
+            carry=carry/2;
+
+        }
         return ans.reverse().toString();
     }
 

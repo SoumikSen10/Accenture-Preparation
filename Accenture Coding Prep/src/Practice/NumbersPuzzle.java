@@ -1,6 +1,7 @@
 package Practice;/*
 
 Numbers Puzzle
+
 Given a set of numbers, one can arrange them in any order but it pays a penalty equal to the sum of the absolute differences between adjacent numbers.
 
 Return the minimum penalty that must be paid.

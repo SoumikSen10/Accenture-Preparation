@@ -40,15 +40,36 @@ public class IntegerBreak
         int n = in.nextInt();
 
         // math approach
-//        int ans = integerBreak(n);
-//        System.out.println(ans);
-
-        // dp approach
-        int dp[] = new int[n+1];
-        int ans = findMaxProduct(n,dp);
+        int ans = integerBreak(n);
         System.out.println(ans);
 
+        // dp approach
+//        int dp[] = new int[n+1];
+//        int ans = findMaxProduct(n,dp);
+//        System.out.println(ans);
+
     }
+
+    private static int integerBreak(int n)
+    {
+        if(n==2)
+            return 1;
+        if(n==3)
+            return 2;
+
+        int prod=1;
+
+        while(n>4)
+        {
+            prod=prod*3;
+            n=n-3;
+        }
+
+        prod=prod*n;
+
+      return prod;
+    }
+
 
     //using shortcut math trick
 //    private static int integerBreak(int n)

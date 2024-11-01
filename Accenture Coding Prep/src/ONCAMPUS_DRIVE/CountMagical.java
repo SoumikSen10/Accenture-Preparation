@@ -7,7 +7,7 @@ Find the Count of Magical Numbers from 1 to N
 A number is considered magical if:
 
 Convert the number to its binary representation.
-Replace every 0 with 2 and every 1 with 2 in the binary string.
+Replace every --> 0 becomes 1 and 1 becomes 2 in the binary string.
 Calculate the sum of all digits in the modified binary string.
 The result must be an odd number.
 

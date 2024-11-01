@@ -1,7 +1,5 @@
 package Practice;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class LeastSubSum
@@ -29,7 +27,6 @@ public class LeastSubSum
     {
         if(k>n-1)
             return -1;
-        List<Integer> list = new ArrayList<>();
         int currSum=0,minStartIndex=0;
         for(int i=0;i<k;i++)
         {

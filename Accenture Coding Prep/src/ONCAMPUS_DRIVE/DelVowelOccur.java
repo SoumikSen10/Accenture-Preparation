@@ -50,7 +50,7 @@ public class DelVowelOccur
                 ans+=s.charAt(i);
         }
         if (n > 1) {
-            ans+=(s.charAt(n - 1));
+            ans+=(s.charAt(n - 1)); // ensuring that the last character of the string is always included in the result.
         }
 
         return ans;

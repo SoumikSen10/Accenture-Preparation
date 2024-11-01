@@ -67,4 +67,5 @@ public class SuperLCM
 
         return gcd(b,a%b);
     }
+
 }

@@ -89,6 +89,25 @@ public class EquilibriumPoint
         }
         return -1;
     }
+
+    private static int practice(int[] arr,int n)
+    {
+        int sum = 0,leftSum=0;
+        for(int i=0;i<n;i++)
+        {
+            sum+=arr[i];
+        }
+
+        for(int i=0;i<n;i++)
+        {
+            sum=sum-arr[i];
+            if(leftSum == sum)
+                return i;
+            leftSum=leftSum+arr[i];
+        }
+        return -1;
+    }
+
 }
 
 /*

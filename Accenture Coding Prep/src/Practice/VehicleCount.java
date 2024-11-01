@@ -28,6 +28,7 @@ Explanation:
 
 // My approach was to solve it using simultaneous linear equations
 
+
 import java.util.Scanner;
 
 public class VehicleCount
@@ -41,7 +42,7 @@ public class VehicleCount
         System.out.print("Enter total no of wheels: ");
         int W = in.nextInt();
 
-        displayBoth(V,W);
+        practice(V,W);
 
     }
     private static void displayBoth(int V,int W)
@@ -61,4 +62,24 @@ public class VehicleCount
         System.out.println("No. of four-wheelers: "+FW);
         System.out.println("No. of two-wheelers: "+TW);
     }
+
+    private static void practice(int V,int W)
+    {
+        if(W<2 || W%2!=0 || V>W)
+        {
+            System.out.println("Invalid input!");
+            return;
+        }
+
+        int TW=0,FW=0;
+        int V1=V;
+        V=V*2;
+        W=W-V;
+        FW = W/2;
+        TW = V1 - FW;
+
+        System.out.println("Four Wheelers : "+FW);
+        System.out.println("Two Wheelers : "+TW);
+    }
+
 }

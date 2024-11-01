@@ -34,18 +34,33 @@ public class WordCounting
         int n = in.nextInt();
         String t = in.next();
 
+//        if(s.length()!=n)
+//            System.out.println("Error");
+//
+//        int count=0,m=t.length();
+//
+//        // Iterate over the string `s` to find occurrences of substring `t`
+//        for(int i = 0; i <= n - m; i++) {
+//            if(s.substring(i, i + m).equals(t)) {
+//                count++;
+//            }
+//        }
+//
+//        System.out.println(count);
+
+
         if(s.length()!=n)
             System.out.println("Error");
 
         int count=0,m=t.length();
 
-        // Iterate over the string `s` to find occurrences of substring `t`
-        for(int i = 0; i <= n - m; i++) {
-            if(s.substring(i, i + m).equals(t)) {
+        for(int i=0;i<=n-m;i++)
+        {
+            if(s.substring(i,i+m).equals(t))
                 count++;
-            }
         }
 
         System.out.println(count);
+
     }
 }

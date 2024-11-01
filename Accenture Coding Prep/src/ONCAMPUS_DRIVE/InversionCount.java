@@ -7,8 +7,6 @@ Let j and k be two indices in an array A.
 If j < k and A[j] > A[k], then the pair (j, k) is known as an “Inversion pair”.
 You are required to implement the following function:
 
-c
-Copy code
 int InversionCount(int *A, int n);
 The function accepts an array A of n unique integers as its argument. You are required to calculate the number of "Inversion pairs" in an array A, and return.
 

@@ -73,6 +73,28 @@ public class CircularGame
 
     }
 
+    private static int practice1(int n,int k)
+    {
+        ArrayList<Integer> list = new ArrayList<>();
+
+        for(int i=1;i<=n;i++)
+        {
+            list.add(i);
+        }
+
+        int i=0;
+        while(list.size()>1)
+        {
+            int index = (i+k-1) % (list.size());
+            list.remove(index);
+            i=index;
+        }
+
+        return list.get(0);
+
+    }
+
+
     private static int findWinner(int n,int k)
     {
         int winner = 1;

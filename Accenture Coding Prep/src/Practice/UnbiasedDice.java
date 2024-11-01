@@ -50,10 +50,24 @@ public class UnbiasedDice
 
         //optimized approach
 
-        if(sum<=12 && sum>0) {
-            for (int i = 1; i <= 6; i++) {
-                int j = sum - i;
-                if (j >= 1 && j <= 6) {
+//        if(sum<=12 && sum>0) {
+//            for (int i = 1; i <= 6; i++) {
+//                int j = sum - i;
+//                if (j >= 1 && j <= 6) {
+//                    count++;
+//                }
+//            }
+//        }
+//        else
+//            count=0;
+
+        if(sum<=16 && sum>0)
+        {
+            for(int i=1;i<=6;i++)
+            {
+                int j = sum-i;
+                if(j>=1 && j<=6)
+                {
                     count++;
                 }
             }

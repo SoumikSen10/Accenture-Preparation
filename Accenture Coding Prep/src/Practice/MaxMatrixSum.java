@@ -8,46 +8,52 @@ public class MaxMatrixSum
         Scanner in = new Scanner(System.in);
         int r = in.nextInt();
         int c = in.nextInt();
-        int mat[][]=new int[r][c];
+        int mat[][] = new int[r][c];
 
-        for(int i=0;i<r;i++)
+        // Taking input for the matrix
+        for(int i = 0; i < r; i++)
         {
-            for(int j=0;j<c;j++)
+            for(int j = 0; j < c; j++)
             {
-                mat[i][j]=in.nextInt();
+                mat[i][j] = in.nextInt();
             }
         }
 
-        int ans = compute(mat,r,c);
-        System.out.println(ans);
+        // Computing the maximum row and column sums
+        int ans = compute(mat, r, c);
+        System.out.println("Maximum Sum: " + ans);
     }
 
-    private static int compute(int[][] mat,int r, int c)
+    private static int compute(int[][] mat, int r, int c)
     {
-        int maxR=Integer.MIN_VALUE;
-        int maxC=Integer.MIN_VALUE;
+        int maxR = Integer.MIN_VALUE; // To store the maximum row sum
+        int maxC = Integer.MIN_VALUE; // To store the maximum column sum
 
-        int colSum=0,rowSum=0;
-        for(int i=0;i<r;i++)
+        // Calculate the maximum sum among rows
+        for(int i = 0; i < r; i++)
         {
-            rowSum=0;
-            for(int j=0;j<c;j++)
+            int rowSum = 0;
+            for(int j = 0; j < c; j++)
             {
-                rowSum+=mat[i][j];
+                rowSum += mat[i][j];
             }
-            maxC=Math.max(maxR,rowSum);
+            // Update maxR with the maximum row sum
+            maxR = Math.max(maxR, rowSum);
         }
 
-        //transpose matrix
-        for(int i=0;i<r;i++)
+        // Calculate the maximum sum among columns
+        for(int j = 0; j < c; j++)
         {
-            colSum=0;
-            for(int j=0;j<c;j++)
+            int colSum = 0;
+            for(int i = 0; i < r; i++)
             {
-                colSum+=mat[j][i];
+                colSum += mat[i][j];
             }
-            maxC=Math.max(maxC,colSum);
+            // Update maxC with the maximum column sum
+            maxC = Math.max(maxC, colSum);
         }
-        return rowSum+colSum;
+
+        // Return the maximum of row or column sum
+        return Math.max(maxR, maxC);
     }
 }

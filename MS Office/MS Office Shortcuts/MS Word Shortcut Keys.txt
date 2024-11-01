@@ -1,12 +1,35 @@
-1) New document : 
-2) Open document :
-3) Save document :
-4) Save As : 
-5) Print document : 
-6) Close document :
-7) Undo :
-8) Redo :
-9) Move one word to right :
-10) Move one word to left :
-11) Single-line spacing : 
-12) Double-line spacing :
+New Document:
+Ctrl + N
+
+Open Document:
+Ctrl + O
+
+Save Document:
+Ctrl + S
+
+Save As:
+F12 or Alt + F, A
+
+Print Document:
+Ctrl + P
+
+Close Document:
+Ctrl + W or Alt + F4
+
+Undo:
+Ctrl + Z
+
+Redo:
+Ctrl + Y
+
+Move One Word to the Right:
+Ctrl + Right Arrow
+
+Move One Word to the Left:
+Ctrl + Left Arrow
+
+Single-line Spacing:
+Ctrl + 1
+
+Double-line Spacing:
+Ctrl + 2

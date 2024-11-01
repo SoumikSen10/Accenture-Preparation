@@ -20,6 +20,7 @@ Explanation: The sum can be achieved using three perfect squares:
 */
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -30,23 +31,18 @@ public class LeastPerfectSquares
         int n = in.nextInt();
 //        int ans = solve(n,1);
 
-        List<List<Integer>> dp = new ArrayList<>();
+        int dp[] = new int[n+1];
 
-        for (int i = 0; i <= n; i++) {
-            List<Integer> row = new ArrayList<>();
-            for (int j = 0; j <=(int)Math.sqrt(n); j++) {
-                row.add(-1); // Initialize with -1
-            }
-            dp.add(row);
-        }
-
+        Arrays.fill(dp,-1);
         int ans = solve(dp,n,1);
 
         System.out.println(ans);
     }
 
+
+
     //using DP
-    private static int solve(List<List<Integer>> dp,int n,int x)
+    private static int solve(int[] dp,int n,int x)
     {
         if(n==0)
             return 0;
@@ -54,14 +50,20 @@ public class LeastPerfectSquares
         if(x*x>n)
             return Integer.MAX_VALUE-1;
 
-        if(dp.get(n).get(x)!=-1)
-            return dp.get(n).get(x);
+        if(dp[n]!=-1)
+            return dp[n];
 
-        int pick = 1 + solve(dp,n-(x*x),x);
-        int notpick = solve(dp,n,x+1);
+        // Pick the current square number (x * x) and reduce n by this value
+        int pick = Integer.MAX_VALUE;
+        if (n >= x * x) {
+            pick = 1 + solve(dp, n - x * x, x); // Pick this square and count it
+        }
 
-       int result =  Math.min(pick,notpick);
-        dp.get(n).set(x, result);
+        // Not pick the current square and move to the next square
+        int notPick = solve(dp, n, x + 1);
+
+       int result =  Math.min(pick,notPick);
+        dp[n]=result;
 
        return result;
     }
@@ -81,5 +83,20 @@ public class LeastPerfectSquares
 //
 //       return Math.min(pick,notpick);
 //    }
+
+    private static int practice(int n,int k)
+    {
+       if(n==0)
+           return 0;
+
+       if(k*k>n)
+           return Integer.MAX_VALUE-1;
+
+       int pick = 1+practice(n-(k*k),k);
+       int notpick = practice(n,k+1);
+
+       return Math.min(pick,notpick);
+
+    }
 
 }

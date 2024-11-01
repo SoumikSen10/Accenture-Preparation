@@ -17,62 +17,50 @@ Output:
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class PalinSubsequences
-{
+
+public class PalinSubsequences {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String str = in.next();
-        int n =str.length();
-        int ans = 0;
-//        ans = findSubsequences(str,0,str.length()-1);
-//        System.out.println(ans);
-        // Initialize the DP table with -1
+        int n = str.length();
+
+        // Create the DP table initialized to -1 for memoization
         int[][] dp = new int[n][n];
         for (int[] row : dp) {
             Arrays.fill(row, -1);
         }
-        ans=findSubsequences(str,0,str.length()-1,dp);
+
+        int ans = countPalindromicSubsequences(str, 0, n - 1, dp);
         System.out.println(ans);
     }
 
-//    private static int findSubsequences(String str,int i,int j)
-//    {
-//        if(i>j)
-//            return 0;
-//
-//        if(i==j)
-//            return 1;
-//
-//        if(str.charAt(i)==str.charAt(j))
-//        {
-//            return 1 + findSubsequences(str,i+1,j) + findSubsequences(str,i,j-1);
-//        }
-//        else
-//        {
-//            return findSubsequences(str,i+1,j) + findSubsequences(str,i,j-1) - findSubsequences(str,i+1,j-1);
-//        }
-//
-//    }
+    private static int countPalindromicSubsequences(String str, int i, int j, int[][] dp) {
+        // Base cases
+        if (i > j) return 0; // If the starting index is greater than the ending index, no subsequences exist
+        if (i == j) return 1; // A single character is a palindromic subsequence
 
-    // using dp
-    private static int findSubsequences(String str,int i,int j,int[][] dp)
-    {
-        if(i>j)
-            return 0;
+        // Check if the result is already computed
+        if (dp[i][j] != -1) return dp[i][j];
 
-        if(i==j)
-            return 1;
+        // Pick - Not Pick Logic
+        if (str.charAt(i) == str.charAt(j)) {
+            // If characters match, count palindromic subsequences by picking both ends and all in-between combinations
+            int pickBoth = 1 + countPalindromicSubsequences(str, i + 1, j, dp)
+                    + countPalindromicSubsequences(str, i, j - 1, dp);
 
-        if(dp[i][j]!=-1)
-            return dp[i][j];
+            // Save the result in the DP table
+            dp[i][j] = pickBoth;
+        } else {
+            // If characters do not match, we count subsequences without picking one or the other end
+            int notPick = countPalindromicSubsequences(str, i + 1, j, dp)
+                    + countPalindromicSubsequences(str, i, j - 1, dp)
+                    - countPalindromicSubsequences(str, i + 1, j - 1, dp);
 
-        if(str.charAt(i)==str.charAt(j))
-        {
-             return dp[i][j] = 1 + findSubsequences(str,i+1,j,dp) + findSubsequences(str,i,j-1,dp);
+            // Save the result in the DP table
+            dp[i][j] = notPick;
         }
-        else {
-             return dp[i][j] = findSubsequences(str, i + 1, j, dp) + findSubsequences(str, i, j - 1, dp) - findSubsequences(str, i + 1, j - 1, dp);
-        }
+
+        return dp[i][j];
     }
-
 }
+

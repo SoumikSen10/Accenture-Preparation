@@ -36,7 +36,7 @@ Output:
 GBGBG
 
 Explanation:
-After 1 second, the 'BG' in the second and third positions swaps, giving "GBGBG".
+After 1 second, the 'BG' in the second and third positions swaps, giving "GBGGB".
 
 Approach:
 You need to iterate through the queue for t seconds and swap adjacent 'B' and 'G' pairs each second.
