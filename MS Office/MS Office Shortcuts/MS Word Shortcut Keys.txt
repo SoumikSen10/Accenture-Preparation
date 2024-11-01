@@ -32,4 +32,8 @@ Single-line Spacing:
 Ctrl + 1
 
 Double-line Spacing:
+<<<<<<< HEAD
 Ctrl + 2
+=======
+Ctrl + 2
+>>>>>>> 163f28dbab9fc4312bf0822ba4449172357a0e9e
